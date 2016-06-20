@@ -2,7 +2,7 @@ def zeros(m,n):
 	return [[0]*n for _ in xrange(m)]
 	
 def match_score(k,l):
-	fname='/Users/mridulgarg11/Documents/Spring\'16/ECEN_689/BLOSUM62.txt'
+	fname='%enter file path here%'
 	handle=open(fname)
 	matrix=[]
 	col,row={},{}
